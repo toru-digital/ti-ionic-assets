@@ -1,0 +1,97 @@
+$ionicons-font-path : "../lib/ionic/fonts";
+
+$light : #fff !default;
+$stable : #f8f8f8 !default;
+$positive : #387ef5 !default;
+$calm : #11c1f3 !default;
+$balanced : #33cd5f !default;
+$energized : #ffc900 !default;
+$assertive : #ef473a !default;
+$royal : #886aea !default;
+$dark : #444 !default;
+
+// custom color
+$google : #DC4B38!default;
+$twitter : #2EABE5!default;
+$linkedin : #0F75A9!default;
+$facebook : #3b5998!default;
+$youtube : #e52d27!default;
+$submit : $calm!default;
+
+$box-shadow : 0px 1px 3px rgba(0,0,0,0.5)!default;
+$box-shadow-down : inset 0 0px 2px rgba(0,0,0,.3)!default;
+$opacity : 0.85!default;
+$opacity-full : 0.95!default;
+
+$button-google-bg:                  $google !default;
+$button-google-text:                #fff !default;
+$button-google-border:              darken($google, 10%) !default;
+$button-google-active-bg:           darken($google, 10%) !default;
+$button-google-active-border:       darken($google, 10%) !default;
+
+$button-twitter-bg:                  $twitter !default;
+$button-twitter-text:                #fff !default;
+$button-twitter-border:              darken($twitter, 10%) !default;
+$button-twitter-active-bg:           darken($twitter, 10%) !default;
+$button-twitter-active-border:       darken($twitter, 10%) !default;
+
+$button-linkedin-bg:                  $linkedin !default;
+$button-linkedin-text:                #fff !default;
+$button-linkedin-border:              darken($linkedin, 10%) !default;
+$button-linkedin-active-bg:           darken($linkedin, 10%) !default;
+$button-linkedin-active-border:       darken($linkedin, 10%) !default;
+
+$button-facebook-bg:                  $facebook !default;
+$button-facebook-text:                #fff !default;
+$button-facebook-border:              darken($facebook, 10%) !default;
+$button-facebook-active-bg:           darken($facebook, 10%) !default;
+$button-facebook-active-border:       darken($facebook, 10%) !default;
+
+$button-youtube-bg:                  $youtube !default;
+$button-youtube-text:                #fff !default;
+$button-youtube-border:              darken($youtube, 10%) !default;
+$button-youtube-active-bg:           darken($youtube, 10%) !default;
+$button-youtube-active-border:       darken($youtube, 10%) !default;
+
+$button-submit-bg:                  $submit !default;
+$button-submit-text:                #fff !default;
+$button-submit-border:              darken($submit, 10%) !default;
+$button-submit-active-bg:           darken($submit, 10%) !default;
+$button-submit-active-border:       darken($submit, 10%) !default;
+
+///// ionic overwrites /////
+
+// type
+$font-size-base : 18px!default;
+$font-size-large : 22px!default;
+$font-size-small : 12px!default;
+
+// header bar
+$bar-height : 81px!default;
+$bar-transparency : 0.85!default;
+$bar-title-font-size: 23px!default;
+
+// subheader
+$subheader-bg : $calm!default;
+
+// sidemenu
+$menu-bg : $calm!default;
+$menu-width : 89px!default;
+$menu-animation-speed:200ms!default;
+$menu-side-shadow:$box-shadow!default;
+
+// padding
+$content-padding:18px!default;
+$grid-padding-width:$content-padding!default;
+$sidemenu-button-padding : 10px!default;
+
+// border radius
+$border-radius-base: 4px!default;
+$border-radius-large: $border-radius-base!default;
+$border-radius-small: $border-radius-base!default;
+$button-border-radius: $border-radius-base!default;
+
+// cards and lists
+$card-body-bg : rgba(#FFF, $opacity)!default;
+$item-default-bg : transparent!default;
+$item-default-active-bg : transparent!default;
