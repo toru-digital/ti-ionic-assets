@@ -1,0 +1,17 @@
+{
+  "name": "ti-ionic-sass",
+  "homepage": "https://github.com/toru-interactive/ti-ionic-sass",
+  "authors": [
+    "Sean Toru <sean@toruinteractive.com>"
+  ],
+  "description": "sass library for ti-ionic projects",
+  "main": "",
+  "license": "none",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
