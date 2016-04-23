@@ -1,0 +1,39 @@
+/*
+ * Note 'AauxPro' is a paid for font owned by client-1 and so cannot be
+ * included in this open source repo. Please ensure that it is placed in the
+ * www/fonts folder.
+ */
+
+@font-face {
+    font-family: 'AauxProLight';
+    src: url('../fonts/AauxProLight/AauxProLight.eot');
+    src: url('../fonts/AauxProLight/AauxProLight.eot') format('embedded-opentype'),
+         url('../fonts/AauxProLight/AauxProLight.woff2') format('woff2'),
+         url('../fonts/AauxProLight/AauxProLight.woff') format('woff'),
+         url('../fonts/AauxProLight/AauxProLight.ttf') format('truetype'),
+         url('../fonts/AauxProLight/AauxProLight.svg#AauxProLight') format('svg');
+}
+
+@font-face {
+    font-family: 'AauxProRegular';
+    src: url('../fonts/AauxProRegular/AauxProRegular.eot');
+    src: url('../fonts/AauxProRegular/AauxProRegular.eot') format('embedded-opentype'),
+         url('../fonts/AauxProRegular/AauxProRegular.woff2') format('woff2'),
+         url('../fonts/AauxProRegular/AauxProRegular.woff') format('woff'),
+         url('../fonts/AauxProRegular/AauxProRegular.ttf') format('truetype'),
+         url('../fonts/AauxProRegular/AauxProRegular.svg#AauxProRegular') format('svg');
+}
+
+// font overrides
+$font-family-sans-serif : "AauxProRegular", sans-serif;
+$font-family-light-sans-serif : "AauxProLight", sans-serif;
+
+// colour overrides
+$dark :  #36424A;
+$assertive : #F64E34;
+$calm :  #2bb0e9;
+$subheader-bg : $dark;
+
+$menu-bg: $dark;
+
+@import "./variables";
